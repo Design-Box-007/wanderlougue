@@ -1,9 +1,9 @@
-import Blog from '@/components/Blog/Blog'
+import Blogs from '@/components/Blogs/Blogs'
 import React from 'react'
 
 const page = () => {
   return (
-    <Blog />
+    <Blogs />
   )
 }
 
