@@ -27,14 +27,14 @@ const Navbar = () => {
         <nav className="w-full z-[9999] fixed top-3 left-0 right-0 px-5">
             <div className="w-[95%] mx-auto rounded-full bg-white text-black shadow flex items-center justify-between px-8 py-3 mt-6">
                 {/* Brand */}
-                <Link href="/" className="text-xl uppercase font-bold font-sans tracking-tight mr-8">
+                <Link href="/" className="text-xl font-urbanist uppercase font-bold font-sans tracking-tight mr-8">
                     Wanderlogue
                 </Link>
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center gap-6 flex-1">
                     {navLinks.map((navlink, idx) => (
                         <li key={navlink.navTitle} className="flex items-center">
-                            <Link href={navlink.navHref || '#'} className="text-lg font-medium px-3 py-1 hover:text-gray-700 transition">
+                            <Link href={navlink.navHref || '#'} className="text-md font-medium px-3 py-1 hover:text-gray-700 transition">
                                 {navlink.navTitle}
                             </Link>
                             {idx !== navLinks.length - 1 && (
