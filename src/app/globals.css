@@ -3,7 +3,7 @@
 
 /* Global CSS Variables */
 :root {
-  --background: #ffffff;
+  --background: #FAF9F6;
   --foreground: #171717;
   --custom-dark-1: #222222;
   --custom-dark-2: #333333;
@@ -12,6 +12,7 @@
   /* Fonts */
   --font-urbanist: 'Urbanist', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
 }
 
 /* Tailwind Inline Theme Support */
@@ -23,6 +24,7 @@
   --color-custom-red: var(--custom-red);
   --font-poppins: var(--font-poppins);
   --font-urbanist: var(--font-urbanist);
+  --font-monteserrat: var(--font-monteserrat);
 }
 
 

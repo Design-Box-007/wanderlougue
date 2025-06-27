@@ -13,7 +13,7 @@ const images = {
   essentials2: "/images/home/essentials-2.png",
   essentials3: "/images/home/essentials-3.png",
   footer: "/images/home/footer.png",
-  frame1171277152: "/images/home/frame-1171277152.png",
+  map: "/images/home/frame-1171277152.png",
   main: "/images/home/main.png",
   neilRosenstechUnsplash: "/images/home/neil-rosenstech-1o4z1ewckay-unsplash-2.png",
   recommends1: "/images/home/recommends-1.png",

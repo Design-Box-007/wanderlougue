@@ -6,12 +6,12 @@ import PopularDestinations from './PopularDestinations'
 import TravelResources from './TravelResources'
 import Map from './Map'
 import Documents from './Documents'
-import CTA from './CTA'
+import CTA from '../Comman/CTA'
 import Divider from '../Comman/Divider'
 
 const Home = () => {
     return (
-        <main className='px-4 py-5 lg:px-10'>
+        <main className='px-4 py-5 lg:px-10 space-y-10'>
             <Hero />
             <Divider isIcon />
             <About />

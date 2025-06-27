@@ -11,7 +11,7 @@ interface DividerProps {
 const Divider: React.FC<DividerProps> = ({ isIcon = false }) => {
     if (isIcon) {
         return (
-            <div className="relative flex items-center w-full my-4">
+            <div className="relative flex items-center w-full">
                 <motion.div
                     className="h-[2px] bg-black flex-1"
                     initial={{ scaleX: 0 }}

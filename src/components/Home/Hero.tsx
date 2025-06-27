@@ -7,7 +7,7 @@ import { MdOutlineMenuBook, MdOutlineTravelExplore } from 'react-icons/md'
 
 const Hero = () => {
     return (
-        <section className="relative bg-white w-full h-screen overflow-hidden rounded-3xl bg-black">
+        <section className="relative bg-white w-full h-screen overflow-hidden rounded-3xl">
             {/* Foreground cut image appears first */}
             <motion.img
                 src={images.main}
@@ -28,9 +28,9 @@ const Hero = () => {
             />
             {/* 'Explore' text appears last */}
             <motion.h1
-                className="absolute font-urbanist left-1/2 -translate-x-1/2 top-[39%] -translate-y-1/2 text-[25vw] font-medium text-white z-[2] leading-none whitespace-nowrap select-none"
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
+                className="absolute font-monteserrat left-1/2 -translate-x-1/2 top-[43%] lg:top-[40%] -translate-y-1/2 text-[25vw] font-medium text-white z-[2] leading-none whitespace-nowrap select-none"
+                initial={{ y: 400 }}
+                animate={{ y: 0 }}
                 transition={{ duration: 1, delay: 2 }}
             >
                 Explore
