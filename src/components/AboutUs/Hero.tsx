@@ -3,7 +3,6 @@
 import React from 'react'
 import { images } from '@/data/assets'
 import { motion } from 'framer-motion'
-import { MdOutlineMenuBook, MdOutlineTravelExplore } from 'react-icons/md'
 
 const Hero = () => {
     return (
