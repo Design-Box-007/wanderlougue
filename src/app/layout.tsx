@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import './globals.css'
 import Navbar from "@/components/Comman/Navbar";
 import Footer from "@/components/Comman/Footer";
+import CTA from "@/components/Comman/CTA";
 
 export const metadata: Metadata = {
   title: "Wanderlogue | Your Ultimate Travel Companion | Travel Guides & Adventures",
@@ -27,6 +28,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <CTA />
         <Footer />
       </body>
     </html>

@@ -1,13 +1,16 @@
+'use client'
+
 import React from 'react'
 import Hero from './Hero'
 import About from './About'
 import TrendingAdventures from './TrendingAdventures'
 import PopularDestinations from './PopularDestinations'
 import TravelResources from './TravelResources'
-import Map from './Map'
-import Documents from './Documents'
-import CTA from '../Comman/CTA'
 import Divider from '../Comman/Divider'
+import dynamic from 'next/dynamic'
+
+const ClientOnlyMap = dynamic(() => import('@/components/Home/Map'), { ssr: false })
+
 
 const Home = () => {
     return (
@@ -18,9 +21,7 @@ const Home = () => {
             <TrendingAdventures />
             <PopularDestinations />
             <TravelResources />
-            <Map />
-            <Documents />
-            <CTA />
+            <ClientOnlyMap />
         </main>
     )
 }

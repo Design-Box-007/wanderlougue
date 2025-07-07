@@ -27,13 +27,13 @@ const images = {
   trending3: "/images/home/trending-3.png",
   trending4: "/images/home/trending-4.png",
 
-  aboutPage: "/images/about/about.png",
+  author: "/images/about/author.png",
   aboutBlog1: "/images/about/blog-1.png",
   aboutBlog2: "/images/about/blog-2.png",
   aboutBlog3: "/images/about/blog-3.png",
   aboutCta: "/images/about/cta.png",
-  hero1: "/images/about/hero-1.png",
-  hero2: "/images/about/hero-2.png",
+  abouthero1: "/images/about/hero-1.png",
+  abouthero2: "/images/about/hero-2.png",
 
   categories1: "/images/blog/categories-1.png",
   categories2: "/images/blog/categories-2.png",
