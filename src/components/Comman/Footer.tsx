@@ -20,7 +20,7 @@ const Footer = () => {
           height={632}
           className="w-full h-full brightness-75 object-cover absolute inset-0 z-10"
         />
-        <h2 className="relative z-20 font-poppins font-semibold text-white lg:text-[14vw] text-[12vw] md:text-[12vw] text-center">
+        <h2 className="relative z-20 font-poppins font-semibold text-white lg:text-[10vw] text-[12vw] md:text-[12vw] text-center">
           Wanderlogue
         </h2>
         <div className="px-4 py-5 rounded-2xl h-[258px] overflow-hidden flex flex-col justify-between gap-4 z-20 relative backdrop-blur-[24px] bg-[#0000000F]">
@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="text-xl font-bold text-white flex flex-row items-center gap-2 flex-1">
                 <Link
                   href="/"
-                  className="text-white w-[100px] text-3xl font-semibold font-radjdhani"
+                  className="text-white w-[100px] text-3xl"
                 >
                   Wanderlogue
                 </Link>
