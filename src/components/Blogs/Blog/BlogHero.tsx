@@ -27,7 +27,7 @@ const Blog = () => {
             />
             {/* 'Explore' text appears last */}
             <motion.h1
-                className="absolute left-1/2 -translate-x-1/2 top-[43%] lg:top-[40%] -translate-y-1/2 text-[22.1vw]  text-white z-[2] leading-none whitespace-nowrap select-none"
+                className="absolute left-1/2 -translate-x-1/2 top-[43%] lg:top-[40%] font-semibold -translate-y-1/2 text-[45vh] text-white z-[2] leading-none whitespace-nowrap select-none"
                 initial={{ y: 700 }}
                 animate={{ y: 200 }}
                 transition={{ duration: 1, delay: 2 }}
