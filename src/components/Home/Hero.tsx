@@ -3,7 +3,6 @@
 import React from 'react'
 import { images } from '@/data/assets'
 import { motion } from 'framer-motion'
-import { MdOutlineMenuBook, MdOutlineTravelExplore } from 'react-icons/md'
 
 const Hero = () => {
     return (
@@ -38,9 +37,9 @@ const Hero = () => {
             {/* Description text (static) */}
             <div className="absolute px-4 w-full flex flex-col gap-4 lg:flex-row justify-center lg:justify-between items-center bottom-8 text-white z-[4] text-lg drop-shadow-md">
                 <p className="text-center lg:text-left">
-                    Discover detailed itineraries, packing lists, and expert travel tips for every destination.
+                    Ultimate Travel Guides: Expert Tips, Packing Lists & Itineraries for Every Destination
                 </p>
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                     <button className="flex items-center cursor-pointer gap-2 px-4 py-2 rounded-full transition text-white border border-white/30 backdrop-blur">
                         <MdOutlineMenuBook className="text-2xl" />
                         <span className="font-medium">Read</span>
@@ -49,7 +48,7 @@ const Hero = () => {
                         <MdOutlineTravelExplore className="text-2xl" />
                         <span className="font-medium">Explore</span>
                     </button>
-                </div>
+                </div> */}
             </div>
         </section>
     )

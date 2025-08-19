@@ -18,8 +18,6 @@ export const navLinks: NavLinksType[] = [
     { navTitle: "About Us", navHref: "/about-us" },
     { navTitle: "Blogs", navHref: "/blogs" },
     { navTitle: "Travel Guides", navHref: "/travel-guides" },
-    { navTitle: "Resources", navHref: "/resources" },
-    { navTitle: "Newsletter", navHref: "/newsletter" },
 ];
 
 

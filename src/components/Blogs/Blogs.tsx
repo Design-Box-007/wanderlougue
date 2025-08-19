@@ -3,11 +3,8 @@ import React from "react";
 import Blog from "./Blog/BlogHero";
 import Divider from "../Comman/Divider";
 import BlogSection from "./Blog/Categories";
-import dynamic from "next/dynamic";
 
-const ClientOnlyMap = dynamic(() => import("@/components/Comman/Map"), {
-  ssr: false,
-});
+ 
 
 const Blogs = () => {
   return (
@@ -15,7 +12,6 @@ const Blogs = () => {
       <Blog />
       <Divider />
       <BlogSection />
-      <ClientOnlyMap/>
     </main>
   );
 };

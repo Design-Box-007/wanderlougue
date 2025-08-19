@@ -17,7 +17,7 @@ const Navbar = () => {
                     Wanderlogue
                 </Link>
                 {/* Desktop Menu */}
-                <ul className="hidden lg:flex items-center gap-6 flex-1">
+                <ul className="hidden lg:flex items-center gap-6 ">
                     {navLinks.map((navlink: NavLinksType, index: number) => (
                         <li key={index} className="flex items-center">
                             <Link href={navlink.navHref || '#'} className="text-md font-medium px-3 py-1 hover:text-gray-700 transition">

@@ -17,7 +17,7 @@ export default function TravelCard({
   author,
 }: TravelCardProps) {
   return (
-    <div className="relative w-full h-[600px] rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer font-urbanist">
+    <div className="relative w-full h-[600px] rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer font-sans">
        
        
       {/* Full Background Image */}

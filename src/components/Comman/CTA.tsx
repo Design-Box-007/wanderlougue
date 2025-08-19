@@ -32,7 +32,7 @@ const CTA = () => {
               No spam, just pure wanderlust inspiration
             </span>
           </p>
-          <form className="w-full max-w-5/6 flex items-center mt-8 mb-4 bg-black p-2.5 rounded-[48px]">
+          <form className="w-full lg:max-w-5/6 flex items-center mt-8 mb-4 lg:bg-black p-2.5 rounded-[48px] bg-none lg:flex-row flex-col gap-4 md:bg-black md:flex-row">
             <div className="flex flex-1 items-center bg-gray-100 rounded-[40px] py-4 px-2.5">
               <FaSearch className="text-2xl mr-2" />
               <input
